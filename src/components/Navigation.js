@@ -36,6 +36,7 @@ const Navigation = () => {
                 <li>projet 1</li>
               </NavLink>
               <NavLink
+              
                 to="/projet-2"
                 className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
               >

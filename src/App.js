@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projet-1" element={<Projet1 />} />

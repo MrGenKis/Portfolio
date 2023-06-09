@@ -6,7 +6,7 @@ export const projectsData = [
     languages: ["React", "Docker"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
+    img: "./assets/img/projet-2.png",
     link: "http://www.google.com", //si le projet est en ligne : url du projet
   },
   {
@@ -16,17 +16,17 @@ export const projectsData = [
     languages: ["PHP", "SQL","POO"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
+    img: "./assets/img/projet-1.png",
     link: "http://www.google.com", //si le projet est en ligne : url du projet
   },
   {
     id: 3,
-    title: "My_Quizz",
+    title: "Tweet Academie",
     date: "Avril 2020",
-    languages: ["JAVASCRIPT", "JSON"],
+    languages: ["JAVASCRIPT", "MSQL", "PHP"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
+    img: "./assets/img/projet-3.png",
     link: "http://www.google.com",//si le projet est en ligne : url du projet
   },
 ];
