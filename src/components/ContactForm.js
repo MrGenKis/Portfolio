@@ -39,9 +39,17 @@ const ContactForm = () => {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className='form-content'>
+      <br></br>
         <input type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required />
+      <br></br>
+      <br></br>
+   
         <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" required />
+        <br></br>
+        <br></br>
         <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" required />
+        <br></br>
+        <br></br>
         <input type="submit" value="Send" className='hover button' />
       </form>
       <div className="formMessage">{formMessage}</div>
