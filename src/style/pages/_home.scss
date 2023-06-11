@@ -93,6 +93,18 @@
           font-size: 5rem;
         }
       }
+      p {
+        p {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 0;
+          margin-left: 5px;
+          overflow-wrap: break-word;
+        }
+        
+      }
     }
   }
 }
@@ -220,7 +232,9 @@
       align-items: center;
       justify-content: center;
       padding: 10px 0;
+      margin-left: 5px;
     }
+    
     
     .success {
       background: rgb(139, 248, 139);
