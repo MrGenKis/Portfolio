@@ -2,8 +2,8 @@ import React from 'react';
 
 const cv = () => {
     return (
-        <div>
-               <a href='./assets/CV.pdf' download><h1>telecharger mon cv</h1></a>
+        <div className='cv'>
+            <a href = "../assets/cv.pdf" target="_blank" rel="noopener noreferrer"><h2>CV</h2></a>
         </div>
     );
 };
